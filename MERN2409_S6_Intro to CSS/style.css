@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(123, 127, 236);
+}
+h2{
+    border: 5px solid gold;
+    border-radius: 25px;
+    background: red;
+    text-align: center;
+    color: black;
+    font-size: 3ram;
+    text-shadow: 1px 1px 1px gold;
+}
+#mipic,#rcbpic,#cskpic,#srhpic{
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gold;
+    width: 600;
+    height: 400;
+
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+h1{
+    background-color: rgb(0, 170, 255);
+    border:5px solid gold ;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px gold;
+
+}
+#mid,#mit{
+    background-color: #00aaff;
+}
+#srhd,#srht{
+    background-color: orange;
+}
+#cskd,#cskt{
+    background-color: yellow;
+}
+#rcbd,#rcbt{
+    background-color: red;
+}
