@@ -1,0 +1,116 @@
+body {
+  background-color: white;
+  margin: 25px;
+  color: #0d4f8b;
+}
+p::selection {
+  background-color: orange;
+  color: white;
+}
+a.link {
+  color: #1e90ff;
+}
+a:visited {
+  color: red;
+}
+a:active {
+  background-color: #1e90ff;
+  color: orange;
+}
+li::marker {
+  color: orange;
+}
+h1 {
+  background-color: #1e90ff;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid orange;
+  box-shadow: 0px 0px 2px black;
+}
+h1::before {
+  content: "🏏";
+}
+h1::after {
+  content: "🏏";
+}
+h1:hover {
+  box-shadow: 0px 0px 20px orange;
+  color: orange;
+}
+.playerdiv {
+  background-color: #1e90ff;
+  width: 1200px;
+  height: 300px;
+  border: 5px solid orange;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 2px black;
+}
+.playerdiv:hover {
+  box-shadow: 0px 0px 20px orange;
+}
+.playerid {
+  background-color: white;
+  width: 230px;
+  height: 300px;
+  box-shadow: 0px 0px 2px black;
+  display: inline-block;
+  margin-left: 35px;
+  border-radius: 5px;
+}
+.playerid:hover {
+  background-color: orange;
+}
+.playerid img {
+  width: 220px;
+  height: 200px;
+  filter: drop-shadow(0px 0px 20px rgb(78, 75, 75));
+}
+.playerid img:hover {
+  width: 225px;
+  height: 220px;
+  filter: drop-shadow(0px 0px 25px rgb(78, 75, 75));
+}
+
+.playerid h2 {
+  background-color: orange;
+  color: #ffffff;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  text-align: center;
+}
+.playerid::first-letter {
+  color: #1e90ff;
+  font-size: 30px;
+}
+.playerinfo {
+  background-color: white;
+  width: 550px;
+  height: 295px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 35px;
+  border-radius: 5px;
+  overflow: auto;
+  box-shadow: 0px 0px 2px black;
+}
+.playerinfo:hover {
+  filter: drop-shadow(0px 0px 5px black);
+}
+.playerinfo p {
+  text-align: justify;
+  margin: 2px;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+.playerdiv iframe {
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px black;
+}
