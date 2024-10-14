@@ -1,0 +1,109 @@
+body {
+  background-image: url("./imgs/istockphoto-1273576812-612x612.jpg");
+  background-size: cover;
+}
+#header {
+  background-color: white;
+  padding-left: 10%;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 5px;
+}
+#goilogo {
+  display: inline-block;
+  width: 60%;
+}
+#goilogo img {
+  width: 60%;
+  height: 100px;
+}
+fieldset {
+  margin-bottom: 10px;
+}
+#aadhaarlogo img {
+  width: 20%px;
+  height: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  right: 30px;
+  padding-right: 10%;
+}
+#formtitle h2 {
+  color: white;
+  text-shadow: 0px 0px 30px black;
+
+  font-size: 2rem;
+  text-align: center;
+}
+form {
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 50px;
+}
+label {
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  width: 100px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.name {
+  display: inline;
+  width: 400px;
+}
+.parent {
+  display: inline-block;
+}
+#address div {
+  display: inline-block;
+  width: 400px;
+}
+
+#capcha {
+  width: 500px;
+  height: 50px;
+  border: 1px outset gray;
+  margin-top: 25px;
+  margin-left: 30%;
+}
+#capcha div {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+}
+#capcha input {
+  display: inline-block;
+  width: 30%;
+}
+button {
+  background-image: url("./imgs/istockphoto-1273576812-612x612.jpg");
+  border-radius: 5px;
+  margin: 20px;
+  border: 0px;
+  position: relative;
+  left: 35%;
+  right: 35%;
+  width: 150px;
+  height: 50px;
+  color: white;
+}
+button:hover {
+  width: 155px;
+  height: 55px;
+  box-shadow: 0px 0px 5px rgb(34, 29, 29);
+  border: 1px solid black;
+}
+#buttons {
+  height: 60px;
+}
+#terms {
+  margin: auto;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  max-width: 800px;
+  padding: 10px;
+}

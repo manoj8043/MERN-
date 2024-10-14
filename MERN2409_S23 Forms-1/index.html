@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Application Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="goilogo">
+        <img src="./imgs/uidai.png" />
+      </div>
+      <div id="aadhaarlogo">
+        <img src="./imgs/aadhaar.png" />
+      </div>
+    </div>
+    <div id="formtitle">
+      <h2>Aadhaar Application Form</h2>
+    </div>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <div class="name">
+          <label for="fname"> First Name : </label> <input type="text" />
+        </div>
+        <div class="name">
+          <label for="mname"> Middle Name : </label> <input type="text" />
+        </div>
+        <div class="name">
+          <label for="lname"> Last Name : </label> <input type="text" />
+        </div>
+        <div class="parent">
+          <label> Father Name : </label> <input type="text" />
+        </div>
+        <div class="parent">
+          <label> Mother Name : </label> <input type="text" />
+        </div>
+        <div id="dob">
+          <label>Date of Birth : </label>
+          <input type="date" />
+        </div>
+      </fieldset>
+      <fieldset id="address">
+        <legend>Address</legend>
+        <div>
+          <label for="">Nationality </label>
+          <input list="nationality" />
+          <datalist id="nationality">
+            <option>Indian</option>
+            <option>Non Resident Indian</option>
+            <option>Other National</option>
+          </datalist>
+        </div>
+        <label for="states">State</label>
+        <select name="states" id="states">
+          <optgroup label="North India">
+            <option value="delhi">Delhi</option>
+            <option value="punjab">Punjab</option>
+            <option value="haryana">Haryana</option>
+            <option value="uttar_pradesh">Uttar Pradesh</option>
+            <option value="uttarakhand">Uttarakhand</option>
+            <option value="himachal_pradesh">Himachal Pradesh</option>
+            <option value="jammu_kashmir">Jammu&Kashmir</option>
+          </optgroup>
+          <optgroup label="South India">
+            <option value="tamil_nadu">Tamil Nadu</option>
+            <option value="kerala">Kerala</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="andhra_pradesh">Andhra Pradesh</option>
+            <option value="telangana">Telangana</option>
+          </optgroup>
+          <optgroup label="East India">
+            <option value="west_bengal">West Bengal</option>
+            <option value="odisha">Odisha</option>
+            <option value="bihar">Bihar</option>
+            <option value="jharkhand">Jharkhand</option>
+          </optgroup>
+          <optgroup label="West India">
+            <option value="rajasthan">Rajasthan</option>
+            <option value="gujarat">Gujarat</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="goa">Goa</option>
+          </optgroup>
+          <optgroup label="Central India">
+            <option value="madhya_pradesh">Madhya Pradesh</option>
+            <option value="chhattisgarh">Chhattisgarh</option>
+          </optgroup>
+          <optgroup label="North-East India">
+            <option value="assam">Assam</option>
+            <option value="manipur">Manipur</option>
+            <option value="meghalaya">Meghalaya</option>
+            <option value="mizoram">Mizoram</option>
+            <option value="nagaland">Nagaland</option>
+            <option value="tripura">Tripura</option>
+            <option value="arunachal_pradesh">Arunachal Pradesh</option>
+            <option value="sikkim">Sikkim</option>
+          </optgroup>
+        </select>
+        <div><label for="dist"> District </label> <input id="dist" /></div>
+        <div>
+          <label for="mandal"> City/Mandal </label> <input id="mandal" />
+        </div>
+        <div><label for="vill"> Town/Village </label> <input id="vill" /></div>
+        <div>
+          <label for="other"> Other</label>
+          <textarea name="" id="other"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Contact Details</legend>
+        <label for="email">E-mail</label>
+        <input id="email" />
+
+        <label for="mobileno">Mobile Number</label>
+        <input id="mobileno" />
+
+        <label for="altmobileno">Alternate Mobile Number</label>
+        <input id="altmobileno" />
+      </fieldset>
+      <div id="capcha">
+        <div><h4>Enter the Captcha:</h4></div>
+        <div><h3>2ke7Udw2e</h3></div>
+        <input type="text" />
+      </div>
+      <div id="terms">
+        <p>
+          By submitting this form, you agree to the
+          <strong>terms and conditions</strong> of Aadhaar card enrollment,
+          including the use of personal data as per the
+          <strong>UIDAI privacy policy</strong>.
+        </p>
+      </div>
+
+      <div id="buttons">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
