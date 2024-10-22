@@ -1,0 +1,84 @@
+body {
+  background-color: #e0f7ff;
+}
+
+#header {
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  background-color: #004080;
+  color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 60px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+.statesdiv {
+  width: 80%;
+  height: 400px;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #f0f8ff;
+  display: inline-block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.statename {
+  width: 90%;
+  height: 50px;
+  text-align: center;
+  border: 2px solid transparent;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.statename h2 {
+  background-color: #0073e6;
+  border-radius: 5px;
+  color: white;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Verdana", sans-serif;
+  font-size: 20px;
+}
+
+.imgdes {
+  width: 90%;
+  height: 300px auto;
+  margin-left: 5%;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background-color: #006bb3;
+  border-radius: 5px;
+}
+
+.imgdes img {
+  width: 200px;
+  height: 250px;
+  margin: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.imgdes p {
+  width: 600px;
+  height: 210px;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: #333333;
+}
