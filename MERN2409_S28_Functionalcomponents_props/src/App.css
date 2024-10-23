@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgb(62, 58, 58);
+  color: white;
+}
+
+.Headding {
+  text-align: center;
+  background-color: goldenrod;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px black;
+}
+
+.Headding h1 {
+  border: 5px solid black;
+  margin: 0;
+  padding: 5px;
+  border-radius: 5px;
+
+  background-color: goldenrod;
+}
+
+.seriesdiv {
+  margin: 10px;
+  width: 630px;
+  height: auto;
+  box-shadow: 0px 0px 10px black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.infodiv {
+  width: 100%;
+  height: auto;
+  padding: 4px;
+}
+
+.imgdiv {
+  width: 25%;
+  height: 100%;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.imgdiv img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.despdiv {
+  width: 70%;
+  height: 250px;
+
+  display: inline-block;
+  margin-left: 7px;
+  vertical-align: top;
+}
+
+.seasonsdiv {
+  height: auto;
+  width: 100%;
+  padding: 5px;
+}
+
+.seasonsdetailsdiv {
+  width: 30%;
+  height: auto;
+
+  margin: 2px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.seasonspostersdiv {
+  width: 65%;
+  margin-left: 7px;
+  height: 200px;
+
+  display: inline-flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+.seasonspostersdiv img {
+  width: 100px auto;
+  height: auto;
+  margin: 6px;
+
+  display: inline-block;
+}
+
+h5,
+h3 {
+  text-shadow: 0px 0px 10px black;
+  text-align: center;
+}
+
+p {
+  text-shadow: 0px 0px 10px black;
+  text-align: justify;
+  margin: 5px;
+}
+h4 {
+  text-shadow: 0px 0px 10px black;
+  text-align: center;
+  box-shadow: 0px 0px 10px gray;
+}
