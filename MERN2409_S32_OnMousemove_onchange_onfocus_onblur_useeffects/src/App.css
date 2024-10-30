@@ -1,0 +1,101 @@
+body {
+  background-color: aliceblue;
+}
+#Hadding {
+  width: 80%;
+  height: 120px;
+  margin-top: 1%;
+  padding-left: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  box-shadow: 0px 0px 20px white;
+}
+#Hadding img {
+  width: 10%;
+  height: 120px;
+  display: inline-flex;
+  flex-direction: row;
+}
+#Hadding h1 {
+  display: inline-flex;
+  flex-direction: row;
+  width: 75%;
+  height: 50px;
+  position: relative;
+  font-size: 2.5rem;
+  top: -40px;
+  right: -160px;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 200px;
+}
+.formdiv,
+.tablediv {
+  margin-top: 10px;
+  margin-left: 40px;
+  display: inline-flex;
+  flex-direction: row;
+  height: 400px auto;
+  border: 2px solid black;
+}
+.formdiv {
+  padding: 10px;
+  padding-top: 30px;
+  width: 40%;
+}
+.formdiv label {
+  text-align: center;
+  width: 40%;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin: 5px;
+}
+.formdiv input {
+  width: 30%;
+}
+.formdiv button {
+  display: block;
+  width: 200px;
+  height: 20px;
+  position: relative;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+.tablediv {
+  width: 50%;
+  height: 500px auto;
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  left: 600px;
+  top: -350px;
+}
+
+table {
+  margin: 10px;
+  border-collapse: collapse;
+}
+th {
+  width: 150px;
+  height: 30px;
+  margin: 1px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.labeldiv label {
+  width: 200px;
+  height: 25px;
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  left: 650px;
+  top: -350px;
+  margin-top: 10px;
+  margin-left: 60px;
+  color: blue;
+  text-align: center;
+}
