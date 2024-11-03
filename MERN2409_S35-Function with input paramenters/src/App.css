@@ -1,0 +1,123 @@
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+#Hadding {
+  width: 80%;
+  height: 120px;
+  margin: 2% auto;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Hadding img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+#Hadding h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #555;
+  margin: 20px 0;
+}
+
+.formdiv,
+.tablediv {
+  margin: 20px auto;
+  padding: 20px;
+  width: 45%;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formdiv {
+  width: 40%;
+}
+
+.formdiv label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.formdiv input {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.formdiv button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formdiv button:hover {
+  background-color: #45a049;
+}
+
+.tablediv {
+  width: 55%;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  color: #333;
+}
+
+td {
+  background-color: #fff;
+}
+
+.labeldiv label {
+  display: block;
+  font-size: 1.1rem;
+  color: #4caf50;
+  text-align: center;
+  margin-top: 10px;
+}
