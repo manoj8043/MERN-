@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  margin: 1rem;
+  padding: 1rem;
+}
+div {
+  box-shadow: 0px 0px 5px black;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background-color: greenyellow;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 150px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+h5 {
+  margin: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 5px;
+  text-align: center;
+}
