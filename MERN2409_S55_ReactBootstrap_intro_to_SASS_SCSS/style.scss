@@ -1,0 +1,71 @@
+@import "./login.scss";
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+// body {
+//   font: 100% $font-stack;
+//   color: $primary-color;
+// }
+form{
+    background-color: white;
+            color: Blue;
+    div{
+        background-color: white;
+        color: Blue;
+        label{
+            background-color: gray;
+            color: white;
+        }
+        
+    }
+}
+@mixin butStyle ($bgc,$col,$brc,$fs){
+    font-size: $fs;
+    background-color: $bgc;
+    color: $col;
+    border: $brc;
+    margin: 2px;
+    
+
+}
+#button1{
+    @include butStyle(red,white,2px solid black,20px);
+}
+#button2{
+    @include butStyle(green,white,2px solid black,20px);
+}
+#button3{
+    @include butStyle(blue,white,2px solid black,20px);
+}
+#button4{
+    @include butStyle(yellow,white,2px solid black,20px);
+}
+#button5{
+    @include butStyle(orange,white,2px solid black,20px);
+}
+#button6{
+    @include butStyle(purple,white,2px solid black,20px);
+}
+$lightBackgroundColor: #f5f5f5;
+$lighttextColor: #333;
+$darkerBackgroundColor: #333;
+$darkerTextColor: #f5f5f5;
+@mixin theme($lighttheme:true){
+    @if $lighttheme{
+        background-color: $lightBackgroundColor;
+        color: $lighttextColor;
+    }@else{
+        background-color: $darkerBackgroundColor;
+        color: $darkerTextColor;
+    }
+}
+body{
+    @include theme($lighttheme:false);
+}
+$basecolor: blue;
+@for $i from 1 through 6{
+    ul:nth(6n+#{$i}){
+        background-color: lighten($basecolor, $i*5%);
+    }
+}

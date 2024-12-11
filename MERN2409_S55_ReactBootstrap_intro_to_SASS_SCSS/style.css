@@ -1,0 +1,100 @@
+body {
+  background-color: greenyellow;
+}
+
+.Login {
+  background-color: red;
+  border: 2px solid black;
+}
+
+form {
+  background-color: white;
+  color: Blue;
+}
+form div {
+  background-color: white;
+  color: Blue;
+}
+form div label {
+  background-color: gray;
+  color: white;
+}
+
+#button1 {
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+#button2 {
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+#button3 {
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+#button4 {
+  font-size: 20px;
+  background-color: yellow;
+  color: white;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+#button5 {
+  font-size: 20px;
+  background-color: orange;
+  color: white;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+#button6 {
+  font-size: 20px;
+  background-color: purple;
+  color: white;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+body {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+ul:nth(6n+1) {
+  background-color: rgb(25.5, 25.5, 255);
+}
+
+ul:nth(6n+2) {
+  background-color: #3333ff;
+}
+
+ul:nth(6n+3) {
+  background-color: rgb(76.5, 76.5, 255);
+}
+
+ul:nth(6n+4) {
+  background-color: #6666ff;
+}
+
+ul:nth(6n+5) {
+  background-color: rgb(127.5, 127.5, 255);
+}
+
+ul:nth(6n+6) {
+  background-color: #9999ff;
+}
+
+/*# sourceMappingURL=style.css.map */
