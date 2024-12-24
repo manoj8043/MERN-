@@ -2,6 +2,7 @@ const { get } = require("http");
 const mongoose = require("mongoose");
 const express = require("express");
 const CORS = require("cors");
+const { profile } = require("console");
 
 let app = express();
 app.use(CORS());
@@ -66,7 +67,7 @@ const studentSchema = new mongoose.Schema({
     lowercase: true,
     enum: ["male", "female", "others"],
   },
-  image: {
+  profile: {
     type: String,
     required: true,
   },
