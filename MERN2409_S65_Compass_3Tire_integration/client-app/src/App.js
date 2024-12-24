@@ -29,11 +29,17 @@ function App() {
               {student.firstName} {student.lastName}
             </h2>
             <hr></hr>
-            <p>Age: {student.age}</p>
-            <p>Email: {student.email}</p>
-            <p>Batch: {student.batch}</p>
-            <p>City: {student.City}</p>
-            <p>Gender:{student.Gender}</p>
+            <div className="profile">
+              {" "}
+              <img src={student.Profile} alt="student" />
+            </div>
+            <div className="details">
+              <p>Age: {student.age}</p>
+              <p>Email: {student.email}</p>
+              <p>Batch: {student.batch}</p>
+              <p>City: {student.City}</p>
+              <p>Gender:{student.Gender}</p>
+            </div>
           </div>
         );
       })}
