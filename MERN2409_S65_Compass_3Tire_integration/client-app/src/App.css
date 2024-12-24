@@ -1,0 +1,62 @@
+/* App.css */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  padding-left: 4%;
+  padding-left: 4%;
+  background-color: #eef2f7;
+  color: #2c3e50;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #34495e;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #2980b9;
+  margin: 20px 0;
+}
+
+/* Student Card Grid */
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Individual Student Card */
+.student {
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.student:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.student h2 {
+  font-size: 1.5rem;
+  color: #2980b9;
+  margin: 10px 0;
+}
+
+.student p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #7f8c8d;
+}
