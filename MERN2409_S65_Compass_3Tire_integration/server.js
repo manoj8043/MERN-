@@ -78,8 +78,9 @@ let Student = new mongoose.model("students", studentSchema, "2020Students");
 let connecttoMDB = async () => {
   try {
     await mongoose.connect(
-      "mongodb+srv://Manoj:M123@cluster0.fufvh.mongodb.net/MERNDB?retryWrites=true&w=majority&appName=Cluster0"
+      "mongodb+srv://MXXX:MXXX@cluster0.fufvh.mongodb.net/MERNDB?retryWrites=true&w=majority&appName=Cluster0"
     );
+    
     console.log("Connected to MongoDB");
   } catch (err) {
     console.log("Error in connecting to MongoDB: ");
@@ -87,3 +88,34 @@ let connecttoMDB = async () => {
 };
 
 connecttoMDB();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Manoj:M123
+
